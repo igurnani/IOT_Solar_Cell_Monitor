@@ -7,11 +7,11 @@ import json
 # Pull current solar radiation
 url = "https://api.solcast.com.au/world_radiation/forecasts/ghi"
 
-api_key = "-Q9CanYnfix4dxyisoknf0QF3PhQZsuZ"
+api_key = "OMITTED"
 params = {
   'api_key': api_key,
-  'latitude': 40.79204,
-  'longitude': -73.539848
+  'latitude': OMITTED,
+  'longitude': OMITTED
 }
 
 headers = {
