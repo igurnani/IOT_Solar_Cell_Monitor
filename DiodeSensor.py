@@ -23,8 +23,8 @@ else:
 
 # Set up Adafruit connection
 adafruitIoUrl = 'io.adafruit.com'
-adafruitUsername = 'jamesmy26'
-adafruitAioKey = 'aio_DjNi69lpIFnN2yYILMYOoxTDYV0s'
+adafruitUsername = 'OMITTED'
+adafruitAioKey = 'OMITTED'
 
 # Define callback function
 def sub_cb(topic, msg):
@@ -75,7 +75,7 @@ if lT is True:  #this is a placeholder for testing purposes.
         if v_diff > threshold:
 
             # Send test message
-            feedName = "jamesmy26/feeds/photosensor-test"
+            feedName = "OMITTED"
             Message = "Threshold passed: "+ str('%.3f'%(v_diff)) + " mV. Panels may be dirty."
 
             # testMessage = "1"
